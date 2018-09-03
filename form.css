@@ -1,0 +1,61 @@
+label { 
+}
+input {
+	color: #555;
+  	display:block;
+  	font-family: 'Times New Roman';
+    width: 100%;
+    padding: 3%;
+	font-size: 20px;
+    background: #efefef;
+    border: 0;
+    outline: 0;
+    margin-bottom: 10px;
+    
+}
+input:focus {outline:0 !important; }
+
+textarea,.textareaClone {
+  padding: 3%;
+  color: #555;
+  background: transparent;
+  white-space: pre-wrap;
+  font-family: 'Times New Roman';
+  word-wrap: break-word;
+  border: 0;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.expandingText > textarea {
+	margin-bottom: 10px;
+	font-family: 'Times New Roman';
+	background: #efefef;
+	font-size: 20px;
+	 border: 0;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+	  width: 100%;
+}
+textarea:focus { outline:0 !important; }
+
+button.btn {
+	border: 2px solid #555;
+	background-color: #555;
+	color: #fff;
+	padding: 3%;
+	width: 100%;
+	font-family: 'Times New Roman';
+	font-size: 20px;
+	text-align: center;
+}
+.g-recaptcha {
+	transform: scale(0.77);
+	-webkit-transform:scale(0.77);
+	transform-origin:0 0;
+	-webkit-transform-origin:0 0;
+	border-radius: 20px;
+	margin: 1.3em auto 0em auto;
+	width: 230px;
+}
